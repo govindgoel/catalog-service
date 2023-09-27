@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Products & Categories</title>
+</head>
+
+<body>
+    <h1>Products</h1>
+
+    {% if products is defined and products|length > 0%}
+    {% for product in products %}
+    <ul>
+        <li>{{ product.name }}</li>
+    </ul>
+    {% endfor %}
+    {% else %}
+    <p style="color:red">No product found</p>
+
+    {% endif %}
+
+</body>
+
+</html>
