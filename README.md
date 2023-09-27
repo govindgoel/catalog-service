@@ -3,9 +3,10 @@
 #### This service is responsible for managing the catalog of products. It is a simple service that uses a MongoDB database to store the products.
 
 
-#Images of the service
-[]: # ![alt text](./img/cat.png "Catalog Service")
-[]: # ![alt text](./img/product.png "Catalog Service")
+### Images of the service
+
+![alt text](./img/cat.png "Catalog Service")
+![alt text](./img/product.png "Catalog Service")
 
 
 ## How to run the service
